@@ -8,4 +8,4 @@ for (let i = 1; i <= 10; i++) {
 }
 
 // Afficher la somme finale
-console.log("La somme des nombres de 1 à 10 est : " + sum);
+console.log("sum of numbers 1 to 10 : " + sum);
