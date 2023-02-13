@@ -1,4 +1,4 @@
-function displayWords() {
+function showWords() {
   var words = ["Niger", "Niamey", "Sadore", "Codeloccol"];
 
   for (var i = 0; i < words.length; i++) {
@@ -6,4 +6,6 @@ function displayWords() {
   }
 }
 
-displayWords();
+showWords();
+
+module.exports = showWords;
