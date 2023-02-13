@@ -13,3 +13,5 @@ function estPair(n) {
 // utilisation de la fonction
 var resultat = estPair(5);
 console.log(resultat); // affichera "impair"
+var resultat1 = estPair(6);
+console.log(resultat1); // affichera "pair"
