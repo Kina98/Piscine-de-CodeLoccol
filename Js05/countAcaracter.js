@@ -10,7 +10,6 @@ function countAcaracter(sentence) {
   return count;
 }
 
-
-console.log(countAcaracter(sentence)); // Output: 4
+console.log("le nombre d'occurrence de 'a' est: " +countAcaracter(sentence));
 
 module.exports = countAcaracter;
