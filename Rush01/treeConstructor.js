@@ -1,5 +1,4 @@
 let strArr = ["(1,2)", "(2,4)", "(7,2)"];
-let strArr = ["(1,2)", "(3,2)", "(2,12)", "(5,2)"];
 
 function TreeConstructor(strArr) {
   // Créer un tableau pour stocker les parents de chaque nœud
@@ -43,4 +42,4 @@ function TreeConstructor(strArr) {
 
 console.log(TreeConstructor(strArr));
 
-console.log(TreeConstructor(strArr));
+module.exports = treeConstructor;
